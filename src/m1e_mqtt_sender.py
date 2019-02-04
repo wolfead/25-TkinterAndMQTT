@@ -5,8 +5,8 @@ import time
 
 
 def main():
-    name1 = input("Enter one name (subscriber): ")
-    name2 = input("Enter another name (publisher): ")
+    name1 = input("Enter one name (Alex): ")
+    name2 = input("Enter another name (bilbo): ")
 
     mqtt_client = com.MqttClient()
     mqtt_client.connect(name1, name2)
